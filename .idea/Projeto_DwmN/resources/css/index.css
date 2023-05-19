@@ -4,7 +4,17 @@
 @import url(article.css);
 @import url(img/pics.css);
 @import url(footer.css);
+@import url(/vendors/css/normalize.css);
 /*Fontes*/
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;1,400&family=Oswald:wght@400;500;600&family=Quicksand:wght@300&display=swap');
 
 /*variaveis*/
+
+:root{
+    --White: #fff;
+    --Orange:#e67e22;
+    --Low-Orange: #cf6d17;
+    --font-Oswald:Oswald;
+    --font-Quicksand:Quicksand;
+
+}
