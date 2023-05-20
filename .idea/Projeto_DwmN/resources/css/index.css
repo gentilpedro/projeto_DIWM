@@ -1,10 +1,12 @@
 /*Imports das paginas de cada divisao do hmtl*/
 @import url(navbar.css);
 @import url(header.css);
+@import url(section.css);
 @import url(article.css);
 @import url(img/pics.css);
 @import url(footer.css);
-@import url(/vendors/css/normalize.css);
+/*Imports das bibliotecas e reset do css*/
+
 /*Fontes*/
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;1,400&family=Oswald:wght@400;500;600&family=Quicksand:wght@300&display=swap');
 

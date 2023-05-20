@@ -1,22 +1,22 @@
-.logo{
-    height: 100%;
+.logo {
+    height: 100px;
     width: auto;
     float: left;
-    margin: 20px;
+    margin-top: 20px; 
 }
-.main-nav{
+
+.main-nav {
     float: right;
-    list-style: none;
+    list-style: none; 
     margin-top: 55px;
-
 }
 
-.main-nav li{
+.main-nav li {
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 40px; 
 }
 
-.main-nav li a{
+.main-nav li a {
     padding: 8px 0;
     color: var(--White);
     text-decoration: none;
@@ -24,11 +24,11 @@
     font-size: 90%;
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.2s;
-}   
+}
 
 .main-nav li a:link,
-.main-nav li a:visited{
-    padding: 80px 0;
+.main-nav li a:visited {
+    padding: 8px 0;
     color: var(--White);
     text-decoration: none;
     text-transform: uppercase;
@@ -38,6 +38,6 @@
 }
 
 .main-nav li a:hover,
-.main-nav li a:active{
-    border-bottom: 2px solid var(--Orange);
+.main-nav li a:active {
+    border-bottom: 2px solid var(--Low-Orange);
 }

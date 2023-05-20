@@ -26,45 +26,45 @@ h1{
     left: 50%;
     transform:  translate(-50%, -50%);
 }
-
 .btn:link,
-.btn:visited{
+.btn:visited {
     display: inline-block;
     padding: 10px 30px;
-    font-family: var(--font-Quicksand);
+        font-family: var(--font-Quicksand);
     font-weight: 300;
     text-decoration: none;
     border-radius: 200px;
     color: var(--White);
-    transition: backgraund-color 0.2s, border 0.2s; ;
+        transition: backgraund-color 0.2s, border 0.2s; ;
+
 }
 
 .btn-full:link,
-.btn-full:visited{
+.btn-full:visited  {
     background-color: var(--Orange);
     border: 1px solid var(--Orange);
     color: var(--White);
     margin-right: 15px;
 }
 
-.btn:link,
-.btn-ghost:visited{
+.btn-ghost:link,
+.btn-ghost:visited  {
     border: 1px solid var(--Orange);
     color: var(--Orange);
 }
 
 .btn:hover,
-.btn:active{
-    background-color:var(--Low-Orange);
+.btn:active {
+    background-color: var(--Low-Orange);
 }
 
 .btn-full:hover,
-.btn-full:active{
+.btn-full:active {
     border: 1px solid var(--Low-Orange);
 }
 
 .btn-ghost:hover,
-.btn-ghost:active{
+.btn-ghost:active {
     border: 1px solid var(--Low-Orange);
     color: var(--White);
 }
